@@ -190,6 +190,7 @@ h3.head {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    margin-bottom: 60px;
 }
 
 .int-del-services-row {
@@ -242,5 +243,77 @@ h2.head {
 }
 
 .int-del-services-dop {
+    display: flex;
+    width: 100%;
+    max-width: 70%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+    border: 1px solid #1AB248;
+    padding: 40px;
+}
 
+.int-del-services-dop h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.int-del-services-dop ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.int-del-services-dop ul li {
+    list-style-type: disc;
+}
+
+.int-del-services-dop ul span {
+    font-size: 18px;
+}
+
+.int-del-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
+    width: 100%;
+    max-width: 590px;
+}
+
+.int-del-order h2 {
+    margin-bottom: 10px;
+}
+
+.int-del-order ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.int-del-order ul li {
+    background-color: #F5F6F7;
+    padding: 24px 66px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: fit-content;
+}
+
+.int-del-order ul li .key {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1AB248;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
 }
